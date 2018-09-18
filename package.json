@@ -2,7 +2,7 @@
   "name": "rate-gravity-code-challenge",
   "version": "1.0.0",
   "description": "RateGravity code challenge",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mgzwarrior/rate-gravity-code-challenge/issues"
   },
-  "homepage": "https://github.com/mgzwarrior/rate-gravity-code-challenge#readme"
+  "homepage": "https://github.com/mgzwarrior/rate-gravity-code-challenge#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0"
+  }
 }

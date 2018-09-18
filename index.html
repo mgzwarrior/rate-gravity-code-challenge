@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RateGravity Code Challenge</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>RateGravity Code Challenge</h1>
+      <p>A tool to find the best 30 year loan for your customers.</p>
+      <p>Upload client data in a JSON file format such as <a href="code-challenge.json">this</a>.</p>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="col-sm-12">
+      <div class="form">
+        <h1>File Upload</h1>
+        <form action="/upload" enctype="multipart/form-data" method="POST">
+          <div class="section">Note: Only JSON files are allowed</div>
+          <div class="inner-wrap">
+            <label><input type="file" accept=".json" id="upload" name="upload" /></label>
+            <div class="button-section">
+              <input type="submit" name="Upload" value="Upload File"/>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
